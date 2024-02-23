@@ -22,22 +22,28 @@
           <div
             class="w-full flex-wrap lg:flex-nowrap justify-center lg:justify-start flex gap-2 lg:mt-16 sm:mt-10 mt-6"
           >
-            <input
-              class="w-[80%] border p-4 rounded-2xl"
-              type="text"
-              placeholder="Qanday kursni izlayapsiz?"
-            />
+        
+          <span class="block w-[80%] relative">
+          <Icon class="h-5 w-5 absolute top-2/4 -translate-y-2/4 left-3 text-[#7C8092]" icon="ic:outline-search" width="1.2em" height="1.2em" />
+
+          <input
+          class="w-full border p-4 block rounded-2xl relative -z-10"
+          type="text"
+          placeholder="       Qanday kursni izlayapsiz?"
+          />
+        </span>
             <button class="btn w-[201px]">Kursni qidirish</button>
           </div>
         </form>
       </div>
       <div class="lg:w-[636px] lg:h-[445px] sm:w-[436px] sm:h-[225] w-[336] h-[125]">
-        <img class="h-full w-full" src="../img/banner.png" alt="" />
+        <img class="h-full w-full object-cover" src="../img/banner.png" alt="" />
       </div>
     </div>
   </div>
 </template>
 <script setup>
+import { Icon } from '@iconify/vue';
 const plurals = ref([
   "Barcha yo'nalishlar",
   "IT",
