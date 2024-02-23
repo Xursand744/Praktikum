@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-full top-0 left-0 inset-0 md:static"
+    class="w-full h-full top-0 left-0 inset-0 md:static z-50"
     :class="toggle ? 'static' : 'tog'"
   >
     <div class="container mx-auto flex flex-col md:flex-row">
@@ -20,7 +20,7 @@
           <button class="nav">Blog</button>
         </ul>
         <ul class="flex flex-col gap-10 items-center md:flex-row md:gap-3">
-          <button class="btn">Ic</button>
+          <button class="btn"><Icon icon="ph:bell" width="16" height="16" /></button>
           <button class="btn">Kirish</button>
           <button class="btn">Ro'yxatdan o'tish</button>
         </ul>
@@ -28,13 +28,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
-export default {
-  setup() {
-    let toggle = ref(true);
-    return {
-      toggle,
-    };
-  },
-};
+<script setup>
+import { ref } from 'vue';
+import { Icon } from '@iconify/vue';
+let toggle = ref(true);
 </script>

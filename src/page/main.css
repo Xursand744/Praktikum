@@ -18,6 +18,12 @@ padding: 15px;
     .tog{
         @apply sticky bg-slate-300 md:bg-white 
     }
+    .input{
+        @apply sticky border outline-none p-5 bg-[#E0E0E0] text-black rounded-lg
+    }
+    .border_b{
+        @apply  before:w-full before:-bottom-2 before:h-[1px] before:absolute relative before:bg-slate-700
+    }
  
 
 
