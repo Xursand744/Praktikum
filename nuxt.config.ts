@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    
+  
+  ],
   devtools: { enabled: true },
-  css: ['~/src/page/main.css'],
+  css: ['~/src/style/main.css'],
 
 })
