@@ -42,7 +42,7 @@
     </div>
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
 import { Icon } from '@iconify/vue';
 const plurals = ref([
   "Barcha yo'nalishlar",

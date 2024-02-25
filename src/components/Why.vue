@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <h3 class="text-2xl md:text-[54px] max-w-[720px] mb-10 md:leading-[4rem]">Nega aynan Praktikum Academy’da o‘qish kerak?</h3>
       <div class="flex justify-between flex-wrap lg:flex-nowrap gap-y-6">
-        <div class="max-w-[484px] w-full grid gap-5 md:gap-10">
+        <div class="max-w-[584px] w-full grid gap-5 md:gap-10">
             <div class="flex md:gap-5 gap-4 lg:gap-10">
               <Icon icon="ion:rocket-outline" width="54" height="54" />
               <div>
@@ -11,9 +11,9 @@
                 <p class="text-lg">Ta'lim jarayonini tezlashtirish va sekinlashtirish imkoni</p>
               </div>
             </div>
-            <div class="flex gap-4 md:gap-6">
-              <Icon icon="ph:play" width="54" height="54" />
-              <div>
+            <div class="flex gap-6 md:gap-12">
+                <Icon icon="solar:play-linear" width="54" height="54" />
+              <div class="w-full">
                 <h2 class="mb-4 text-lg md:text-2xl">O'qituvchilar bilan muloqot</h2>
                 <p class="md:text-lg">O'qituvchilar bilan individual <br> maslahatlashuvlar</p>
               </div>

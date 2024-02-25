@@ -13,11 +13,15 @@ export default {
     "./error.vue",
   ],
   theme: {
-container:{
-  'center':true
-},
+    container: {
+      center: true,
+      padding: '1rem'
+    },
+    
     extend: {
-      
+      fontFamily: {
+        Roboto: ['Roboto'],
+      },
     },
   },
   plugins: [],
