@@ -85,7 +85,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Icon } from "@iconify/vue";
 const show = ref(false);
 const toggle = ref(true);
 </script>
