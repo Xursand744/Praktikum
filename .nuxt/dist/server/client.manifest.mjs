@@ -1,1 +1,1 @@
-export { default } from "file:///C:/-=My%20Family=-/praktikum%20academy/Praktikum/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Users/user/Desktop/Praktikum/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

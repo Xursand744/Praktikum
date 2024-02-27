@@ -1,6 +1,7 @@
 <template>
     <div>
-      <Navbar/>
+      <Courses/>
+      <!-- <Navbar/>
       <Header/>
       <Carousel/>
       <Vantage/>
@@ -10,11 +11,12 @@
       <Why/>
       <Career/>
       <Result/>
-      <Footer/>
+      <Footer/> -->
   
     </div>
   </template>
-  <script setup>
+<script setup>
+  import Courses from "./Courses.vue";
   import Navbar from "/src/components/Navbar";
   import Header from "/src/components/Header";
   import Carousel from "/src/components/Carousel";
@@ -26,5 +28,5 @@
   import Career from "/src/components/Career";
   import Result from "/src/components/Result";
   import Footer from "/src/components/Footer";
-  </script>
+</script>
   
