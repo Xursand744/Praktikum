@@ -1,8 +1,11 @@
 <template>
   <div>
-<Home/>    
+
+      <!-- <Home/> -->
+      <!-- <Course/> -->
   </div>
 </template>
 <script setup>
-import Home from "/src/page/Home";
+// import Home from "/pages/Home";
+// import Course from "/pages/Course";
 </script>
