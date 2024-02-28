@@ -4,7 +4,7 @@
       <nav class="lg:flex w-full mb-6">
         <!-- logo -->
         <div class="flex justify-between items-center lg:flex-none">
-          <NuxtLink to="">
+          <NuxtLink to="/pages/Home.vue">
             <img src="../img/Frame.png" alt="" />
           </NuxtLink>
           <span class="lg:hidden" @click="toggle = !toggle">
