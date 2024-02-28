@@ -11,7 +11,6 @@
       <Career/>
       <Result/>
       <Footer/>
-  
     </div>
   </template>
   <script setup>

@@ -4,7 +4,9 @@
       <nav class="lg:flex w-full mb-6">
         <!-- logo -->
         <div class="flex justify-between items-center lg:flex-none">
-          <img src="../img/Frame.png" alt="" />
+          <NuxtLink to="">
+            <img src="../img/Frame.png" alt="" />
+          </NuxtLink>
           <span class="lg:hidden" @click="toggle = !toggle">
             <Icon class="w-[20px] h-[20px] md:w-[30px] md:h-[30px] " icon="fontisto:nav-icon-a"/>
           </span>
@@ -47,11 +49,11 @@
                   >
                     Java Script
                   </button>
-                  <button
+                  <buttom
                     class="block px-4 py-2 text-sm mx-auto hover:bg-indigo-400 hover:text-indigo-100"
                   >
                     Java
-                  </button>
+                  </buttom>
                   <button
                     class="block px-4 py-2 text-sm mx-auto hover:bg-indigo-400 hover:text-indigo-100"
                   >
@@ -84,7 +86,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 const show = ref(false);
 const toggle = ref(true);
 </script>
